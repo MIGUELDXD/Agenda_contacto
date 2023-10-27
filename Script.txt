@@ -1,0 +1,10 @@
+Create database contactos
+
+CREATE TABLE contactos(
+	ID INT PRIMARY KEY,
+	Nombres VARCHAR(255),
+	Apellidos VARCHAR(255),
+	Numero_de_telefono VARCHAR(10)
+	Direccion VARCHAR(255)
+	Curso VARCHAR(50)
+);
